@@ -1,7 +1,6 @@
 1. Compile maven project
 
-`mvn compile`
-
+   `mvn compile`
 2. Package maven project
 
 `mvn package`
@@ -29,3 +28,21 @@
 		<java.version>11</java.version>
 	</properties>
 ```
+
+8. Push code up to railway
+
+`railway up`
+
+## getting args from cmd line
+
+##### Spring Boot port config
+
+`mvn spring-boot:run -Dspring-boot.run.arguments=--port=8084`
+
+Setting env port value
+
+`set APP_PORT=9090`
+
+###### Resetting env port value
+
+`set APP_PORT=`
